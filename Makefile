@@ -3,6 +3,7 @@ RESUME_NAME ?= Connor_McKelvey__Resume
 RESUME_SRC ?= RESUME.rst
 RESUME_HTML = $(BUILD_DIR)/$(RESUME_NAME).html
 RESUME_PDF = $(BUILD_DIR)/$(RESUME_NAME).pdf
+RESUME_XML = $(BUILD_DIR)/$(RESUME_NAME).xml
 
 SCSS_MAIN = scss/main.scss
 CSS_MAIN = $(BUILD_DIR)/main.css
@@ -15,6 +16,9 @@ html: $(RESUME_HTML) spellcheck
 
 pdf: $(RESUME_PDF)
 	@open $<
+
+xml: requirements $(RESUME_SRC) $(BUILD_DIR)
+	@rst2xml.py --indents $(RESUME_SRC) $(RESUME_XML)
 
 spellcheck: $(RESUME_HTML)
 	bin/spellcheck $(RESUME_HTML) -H
