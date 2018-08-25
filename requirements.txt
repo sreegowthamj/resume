@@ -1,2 +1,4 @@
 docutils
 libsass
+secretary
+xmltodict
