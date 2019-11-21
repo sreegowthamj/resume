@@ -2,7 +2,7 @@
 Sree Gowtham Josyula
 ======================
 :Address: Tempe, AZ
-          623-216-8029
+:Phone: +1-623-216-8029
 :Email: sreegowthamj@gmail.com
 :Website: `sreegowthamj.github.io`_
 :Github: `@sreegowthamj`_
@@ -81,15 +81,11 @@ Projects
 **Virtual Product Trial App on Hololens**
   A Microsoft Hololens App to virtually tryout a product before making a purchase. We built proof of concept implementation for the case of a watch.
 
-.. meta::
-   :description: Sree gowtham Josyula's Resume
-   :keywords: Robotics, Self-Driving Cars, ROS, SLAM, Deep Learning, Computer Vision, Localization, Mapping, Path-Planning, Perception, LIDAR, Robotics Software, OpenCV, pytorch, tensorflow, keras
-
 Coursework
 ------------
 
 **Graduate Coursework**
-
+  
   * *Artificial Intelligence Track*: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
   * *Systems Track*: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
 
@@ -98,7 +94,12 @@ Coursework
   * *Analog Design*: Analog Electronics, Linear Control Systems, Linear Integrated Circuits, Power Electronics, Analog IC Design, Active Filter Design,  Radio Frequency Integrated Circuits
   * *Digital Design*: Digital Electronics and Computer Architecture, Microprocessors, Embedded Systems, Digital System Design, VLSI Design, Low Power VLSI Design
   * *Signal Processing*: Linear Systems and Signals, Digital Signal Processing, Advanced Digital Signal Processing, Digital Signal Compression, Speech and Audio Processing, Digital Image and Video Processing and Compression
-  * *Communication Systems*: Analog Communication, Digital Communication, Communication Networks, Cryptography, Random Signal Theory, ElectromagneticTheory, Antennas and Propagation, Microwave Engineering
+  * *Communication Systems*: Analog Communication, Digital Communication, Communication Networks, Cryptography, Random Signal Theory, Electromagnetic Theory, Antennas and Propagation, Microwave Engineering
+
+
+.. meta::
+   :description: Sree Gowtham Josyula's Resume
+   :keywords: Robotics, Self-Driving Cars, ROS, SLAM, Deep Learning, Computer Vision, Localization, Mapping, Path-Planning, Perception, LIDAR, Robotics Software, OpenCV, pytorch, tensorflow, keras
 
 .. |copy| unicode:: 0xA9
 .. |date| date::
