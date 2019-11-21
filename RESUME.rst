@@ -20,7 +20,7 @@ Feb,2019 - Persent
   | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
   * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
-  * Worked on development, configuration and integration of vehicle localisation, mapping and actuation modules
+  * Worked on development, configuration and integration of vehicle localization, mapping and actuation modules
       
 July,2015 - June,2017
   | **Associate Software Engineer**
@@ -85,7 +85,7 @@ Coursework
 ------------
 
 **Graduate Coursework**
-  
+
   * *Artificial Intelligence Track*: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
   * *Systems Track*: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
 
