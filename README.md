@@ -1,9 +1,9 @@
 # Resume
 
-[![CircleCI](https://circleci.com/gh/connormckelvey/resume.svg?style=svg)](https://circleci.com/gh/connormckelvey/resume)
+[![CircleCI](https://circleci.com/gh/sreegowthamj/resume.svg?style=svg)](https://circleci.com/gh/sreegowthamj/resume)
 
 This project builds my personal résumé as HTML and PDF documents from 
-reStructuredText. Download the latest build of my résumé from [releases](https://github.com/connormckelvey/resume/releases/latest), or see 
+reStructuredText. Download the latest build of my résumé from [releases](https://github.com/sreegowthamj/resume/releases/latest), or see 
 [below](#getting-started) for instructions on building from source.
 
 ## Getting Started
@@ -27,7 +27,7 @@ machine for development and building purposes.
 
 1. Clone the Repository 
     ```
-    $ git clone https://github.com/connormckelvey/resume.git
+    $ git clone https://github.com/sreegowthamj/resume.git
     ```
 2. Change directories 
     ```
@@ -72,7 +72,7 @@ instead, you can override the path to the executable with an environment variabl
 
 HTML and PDF résumé documents are automatically built on every commit using 
 [CircleCI](http://circleci.com/). Résumé documents from tagged commits (e.g. v1.1.2) 
-are uploaded to this project's [Releases](https://github.com/connormckelvey/resume/releases) 
+are uploaded to this project's [Releases](https://github.com/sreegowthamj/resume/releases) 
 page.
 
 ## Built With
