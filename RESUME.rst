@@ -1,94 +1,104 @@
 ======================
-Connor McKelvey
+Sree Gowtham Josyula
 ======================
-:Address: Boulder, CO
-          850-217-5880
-:Email: connormckelvey@gmail.com
-:Website: `connormckelvey.com`_
-:Github: `@connormckelvey`_
+:Address: Tempe, AZ
+          623-216-8029
+:Email: sreegowthamj@gmail.com
+:Website: `sreegowthamj.github.io`_
+:Github: `@sreegowthamj`_
+:Linkedin: `sreegowthamjosyula`_
 :Updated: |date|
-:Copyright: |copy| |year|, Connor McKelvey
+:Copyright: |copy| |year|, Sree Gowtham Josyula
 
 Employment
 ----------
 
-2017 - Present
-  | **Software Engineer**
-  | *CA Technologies* |---| Boulder, CO
+Feb,2019 - Persent
+  | **ROS Software Developer**
+  | *Luminosity Lab, Arizona State University* |---| Tempe, AZ
 
-  | Working with multiple teams to build and maintain a BI Data Pipeline for SaaS and On-Prem Products
-  | *Technologies used: Kafka, Kubernetes, Clojure, Typescript, Rails, Python, and Go*
+  | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
-  * Provided technical mentoring and onboarding to 4 associate engineers across 2 physical locations
-  * Led technical phone screenings and on-site interviews for over 30 candidates resulting in 3 hires
-  * Spearheaded release, licensing and team agreements for group's first open source project
-  * Educated 5 teams across 3 locations on topics such as JS Promises, Bash, and Golang in regular COPs
-  * Organized 3 quarterly Hackathon kick-offs, cross-site demos, and award ceremonies
-  * Reduced frequency of vulnerabilities in Docker images with a Cron-based "base image" build system
-  * Improved developer experience with custom tooling for doc generation and secret decryption 
-  * Developed a Cron-based system for backing up Grafana Dashboards to Github or AWS S3
+  * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
+  * Worked on development, configuration and integration of vehicle localisation, mapping and actuation modules
       
-2016 - 2017
+July,2015 - June,2017
   | **Associate Software Engineer**
-  | *CA Technologies* |---| Boulder, CO
+  | *Harman International Inc* |---| Bengaluru, India
 
-  | Developed a real-time productivity and task management tool within a cross-functional team
-  | *Technologies used: WebSockets, Typescript, React, Node.JS and PostgresQL*
+  | Worked as C++ Software Developer for Automotive Infotainment Systems on Embedded Linux platforms. My assignments included the following-
 
-  * Reduced risks of rendering untrusted HTML emails in-browser with a "sandboxed" React component
-  * Solved screen real-estate issues for horizontal menus with a responsive React component
-
-2014 - 2016
-  | **Web Developer**
-  | *Findsome & Winmore* |---| Orlando, FL
-
-  | Collaborated with designers and other developers on retail websites and applications
-  | *Technologies used: Wordpress, Node.JS, Rails, Angular, and React*
-
-  * Led discussions with stakeholders to plan and estimate the cost of client projects
-  * Transitioned development team from SVN to Git for easier collaboration
+  * Building a customized Embedded Linux Distribution for Automobile Infotainment systems using Yocto framework
+  * In Vehicle Software Update module for Infotainment Systems
+  * Qt5 based Graphical Interface for Infotainment systems
 
 Education
 ---------
 
-2010 - 2013
-  | **B.A. Sociology**
-  | *University of Central Florida* |---| Orlando, FL
+July,2011 - May,2015
+  | **B. Tech. Electronics and Communication Engineering**
+  | *National Institute of Technology, Karnataka* |---| Surathkal, India
 
-  * Minor in Cultural Anthropology, Certificate in Women's Studies
-  * Active in Amnesty International and Knight's Advocates
-  * Volunteered with UCF Victims Services and Harbor House of Central Florida
+Aug,2017 - Dec,2019
+  | **M.S. Computer Engineering**
+  | *Arizona State University* |---| Tempe, Arizona
 
 
-Experience
+Skills
 ----------
 
 **Languages and Libraries**
-  | Javascript, Elixir, Clojure, Python, Go, Ruby, Lua
-  | NodeJS, React, OTP, Phoenix, Rails, OpenResty
+  | C++11, C, python, VHDL, Verilog, Shell Scripting(Linux), elisp
 
-**Platforms and Infrastructure**
-  | AWS: ECS, Lambda, S3; GCP: Firebase, Pub/Sub, GKE
-  | Docker, Kubernetes, Prometheus, Kafka
+**Software Frameworks**
+  | ROS, OpenCV, Yocto, OpenEmbedded, Qt5, Android, Pytorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Matlab
+
+**Other**
+  | JIRA, Git, Perforce, Eagle PCB design
 
 Projects
 --------
 
-**Tildev**
-   Wordpress platform and development environment service. User's create a 
-   Wordpress stack in seconds and edit site files locally: 
-   *Firebase, Kubernetes, PubSub, Electron, React, Typescript*
+**Robot Open-Ended Autonomous Learning[Ongoing]**
+  Aims to build learning machines and robots that are able to acquire skills and knowledge in an incremental fashion. This enables the robotic agent to
 
+  * Acquire sensorimotor competence that allows them to interact with objects and physical environments
+  * Learn in a fully autonomous way, i.e. with no human intervention, on the basis of curiosity, intrinsic motivation and task-free Reinforcement Learning}
 
-**Major7** 
-   Peer-to-peer encrypted messaging application based on the Chord Distributed 
-   Hash Table. Users can send messages to others who may be online or offline: 
-   *Elixir, Erlang/OTP, DETS*
+**A Better Reward function for Autonomous 3D Reconstruction** 
+   Defined a reward function to find the Next Best View for 3D reconstruction of an object on the lines of exploration and exploitation trade-off, favouring exploration of environment initially and exploitation of the environment in later stages
+
+**Hybrid Recommendation Engine For Users based on Yelp dataset**
+  Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews using Latent Dirichlet Allocation on Yelp dataset.
+
+**Linux Kernel Device Drivers and Patches**
+  Implemented the following for the Linux kernel
+
+  * Dynamic Linux kernel stack dumping from userspace through a patch in the kernel
+  * Linux kernel driver for WS2812 Led Strip using GPIO and SPI sub-systems
+  * Linux kernel driver for HC-SR04 ultra-sonic distance sensor in GPIO sub-system with sysfs and dev user interfaces
+
+**Virtual Product Trial App on Hololens**
+  A Microsoft Hololens App to virtually tryout a product before making a purchase. We built proof of concept implementation for the case of a watch.
 
 .. meta::
-   :description: Connor McKelvey's Software Engineering Resume
-   :keywords: software, engineering, development, cloud-native, cloud-based,
-      real-time, big data, Kubernetes, docker
+   :description: Sree gowtham Josyula's Resume
+   :keywords: Robotics, Self-Driving Cars, ROS, SLAM, Deep Learning, Computer Vision, Localization, Mapping, Path-Planning, Perception, LIDAR, Robotics Software, OpenCV, pytorch, tensorflow, keras
+
+Coursework
+------------
+
+**Graduate Coursework**
+
+  * *Artificial Intelligence Track*: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
+  * *Systems Track*: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
+
+**Undergraduate Coursework**
+
+  * *Analog Design*: Analog Electronics, Linear Control Systems, Linear Integrated Circuits, Power Electronics, Analog IC Design, Active Filter Design,  Radio Frequency Integrated Circuits
+  * *Digital Design*: Digital Electronics and Computer Architecture, Microprocessors, Embedded Systems, Digital System Design, VLSI Design, Low Power VLSI Design
+  * *Signal Processing*: Linear Systems and Signals, Digital Signal Processing, Advanced Digital Signal Processing, Digital Signal Compression, Speech and Audio Processing, Digital Image and Video Processing and Compression
+  * *Communication Systems*: Analog Communication, Digital Communication, Communication Networks, Cryptography, Random Signal Theory, ElectromagneticTheory, Antennas and Propagation, Microwave Engineering
 
 .. |copy| unicode:: 0xA9
 .. |date| date::
@@ -96,5 +106,6 @@ Projects
 .. |time| date:: %H:%M
 .. |---| unicode:: U+2014
 
-.. _connormckelvey.com: http://connormckelvey.com
-.. _@connormckelvey: https://github.com/connormckelvey
+.. _sreegowthamj.github.io: http://sreegowthamj.github.io
+.. _@sreegowthamj: https://gitlab.com/sreegowthamj
+.. _sreegowthamjosyula: https://linkedin.com/in/sreegowthamjosyula
