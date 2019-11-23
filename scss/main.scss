@@ -3,9 +3,11 @@
 
 /* General */
 
-@page { 
-  size: auto;
-  margin: 0;
+@page {
+  @top-center {
+  content: element(header,first-except);}
+  @bottom-left {content: element(footer);}
+  margin-top: 200px;
 }
 
 html, body {

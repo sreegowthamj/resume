@@ -1,17 +1,34 @@
 ======================
 Sree Gowtham Josyula
 ======================
-:Address: Tempe, AZ
-:Phone: +1-623-216-8029
-:Email: sreegowthamj@gmail.com
-:Website: `sreegowthamj.github.io`_
-:Github: `@sreegowthamj`_
-:Linkedin: `sreegowthamjosyula`_
-:Updated: |date|
-:Copyright: |copy| |year|, Sree Gowtham Josyula
+
+| sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
+| linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
+
+
+  .. list-table:: 
+   :widths: auto
+   :header-rows: 0
+   :align: center
+
+   * - sreegowthamj@gmail.com
+     - +1-623-216-8029
+     - Tempe, AZ, USA
+   * - linkedin: sreegowthamjosyula_
+     - gitlab: sreegowthamj_
+     -
 
 Employment
 ----------
+
+.. list-table:: 
+  :widths: auto
+  :header-rows: 0
+     
+  * - Treat
+    - Quantity
+    - Description
+  
 
 Feb,2019 - Persent
   | **ROS Software Developer**
@@ -21,7 +38,7 @@ Feb,2019 - Persent
 
   * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
   * Worked on development, configuration and integration of vehicle localization, mapping and actuation modules
-      
+
 July,2015 - June,2017
   | **Associate Software Engineer**
   | *Harman International Inc* |---| Bengaluru, India
@@ -33,7 +50,7 @@ July,2015 - June,2017
   * Qt5 based Graphical Interface for Infotainment systems
 
 Education
----------
+----------
 
 July,2011 - May,2015
   | **B. Tech. Electronics and Communication Engineering**
@@ -42,7 +59,6 @@ July,2011 - May,2015
 Aug,2017 - Dec,2019
   | **M.S. Computer Engineering**
   | *Arizona State University* |---| Tempe, Arizona
-
 
 Skills
 ----------
@@ -60,53 +76,53 @@ Projects
 --------
 
 **Robot Open-Ended Autonomous Learning[Ongoing]**
-  Aims to build learning machines and robots that are able to acquire skills and knowledge in an incremental fashion. This enables the robotic agent to
+
+  | Aims to build learning machines and robots that are able to acquire skills and knowledge in an incremental fashion. This enables the robotic agent to
 
   * Acquire sensorimotor competence that allows them to interact with objects and physical environments
-  * Learn in a fully autonomous way, i.e. with no human intervention, on the basis of curiosity, intrinsic motivation and task-free Reinforcement Learning}
+  * Learn in a fully autonomous way, i.e. with no human intervention, on the basis of curiosity, intrinsic motivation and task-free Reinforcement Learning
 
 **A Better Reward function for Autonomous 3D Reconstruction** 
-   Defined a reward function to find the Next Best View for 3D reconstruction of an object on the lines of exploration and exploitation trade-off, favouring exploration of environment initially and exploitation of the environment in later stages
+
+  | Defined a reward function to find the Next Best View for 3D reconstruction of an object on the lines of exploration and exploitation trade-off, favouring exploration of environment initially and exploitation of the environment in later stages
 
 **Hybrid Recommendation Engine For Users based on Yelp dataset**
+
   Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews using Latent Dirichlet Allocation on Yelp dataset.
 
 **Linux Kernel Device Drivers and Patches**
-  Implemented the following for the Linux kernel
+
+  | Implemented the following for the Linux kernel
 
   * Dynamic Linux kernel stack dumping from userspace through a patch in the kernel
   * Linux kernel driver for WS2812 Led Strip using GPIO and SPI sub-systems
   * Linux kernel driver for HC-SR04 ultra-sonic distance sensor in GPIO sub-system with sysfs and dev user interfaces
 
 **Virtual Product Trial App on Hololens**
-  A Microsoft Hololens App to virtually tryout a product before making a purchase. We built proof of concept implementation for the case of a watch.
+
+  | A Microsoft Hololens App to virtually tryout a product before making a purchase. We built proof of concept implementation for the case of a watch.
 
 Coursework
 ------------
 
 **Graduate Coursework**
 
-  * *Artificial Intelligence Track*: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
-  * *Systems Track*: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
+  | *Artificial Intelligence Track*: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
+  | *Systems Track*: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
 
 **Undergraduate Coursework**
 
-  * *Analog Design*: Analog Electronics, Linear Control Systems, Linear Integrated Circuits, Power Electronics, Analog IC Design, Active Filter Design,  Radio Frequency Integrated Circuits
-  * *Digital Design*: Digital Electronics and Computer Architecture, Microprocessors, Embedded Systems, Digital System Design, VLSI Design, Low Power VLSI Design
-  * *Signal Processing*: Linear Systems and Signals, Digital Signal Processing, Advanced Digital Signal Processing, Digital Signal Compression, Speech and Audio Processing, Digital Image and Video Processing and Compression
-  * *Communication Systems*: Analog Communication, Digital Communication, Communication Networks, Cryptography, Random Signal Theory, Electromagnetic Theory, Antennas and Propagation, Microwave Engineering
+  | *Analog Design*: Analog Electronics, Linear Control Systems, Linear Integrated Circuits, Power Electronics, Analog IC Design, Active Filter Design,  Radio Frequency Integrated Circuits
+  | *Digital Design*: Digital Electronics and Computer Architecture, Microprocessors, Embedded Systems, Digital System Design, VLSI Design, Low Power VLSI Design
+  | *Signal Processing*: Linear Systems and Signals, Digital Signal Processing, Advanced Digital Signal Processing, Digital Signal Compression, Speech and Audio Processing, Digital Image and Video Processing and Compression
+  | *Communication Systems*: Analog Communication, Digital Communication, Communication Networks, Cryptography, Random Signal Theory, Electromagnetic Theory, Antennas and Propagation, Microwave Engineering
 
 
 .. meta::
    :description: Sree Gowtham Josyula's Resume
    :keywords: Robotics, Self-Driving Cars, ROS, SLAM, Deep Learning, Computer Vision, Localization, Mapping, Path-Planning, Perception, LIDAR, Robotics Software, OpenCV, pytorch, tensorflow, keras
 
-.. |copy| unicode:: 0xA9
-.. |date| date::
-.. |year| date:: %Y
-.. |time| date:: %H:%M
-.. |---| unicode:: U+2014
-
-.. _sreegowthamj.github.io: http://sreegowthamj.github.io
-.. _@sreegowthamj: https://gitlab.com/sreegowthamj
 .. _sreegowthamjosyula: https://linkedin.com/in/sreegowthamjosyula
+.. _sreegowthamj: https://gitlab.com/sreegowthamj
+.. |---| unicode:: U+2014
+.. |...| unicode:: U+00A0 U+2022 U+00A0
