@@ -5,43 +5,22 @@ Sree Gowtham Josyula
 | sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
 | linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
 
-
-  .. list-table:: 
-   :widths: auto
-   :header-rows: 0
-   :align: center
-
-   * - sreegowthamj@gmail.com
-     - +1-623-216-8029
-     - Tempe, AZ, USA
-   * - linkedin: sreegowthamjosyula_
-     - gitlab: sreegowthamj_
-     -
-
+----------
 Employment
 ----------
 
-.. list-table:: 
-  :widths: auto
-  :header-rows: 0
-     
-  * - Treat
-    - Quantity
-    - Description
-  
+| **ROS Software Developer** |...| **Luminosity Lab, Arizona State University**
 
-Feb,2019 - Persent
-  | **ROS Software Developer**
-  | *Luminosity Lab, Arizona State University* |---| Tempe, AZ
+  | Feb,2019 - Persent |...| Tempe, AZ
 
   | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
   * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
   * Worked on development, configuration and integration of vehicle localization, mapping and actuation modules
+  
+| **Associate Software Engineer** |...| **Harman International Inc.**
 
-July,2015 - June,2017
-  | **Associate Software Engineer**
-  | *Harman International Inc* |---| Bengaluru, India
+  | July,2015 - June,2017 |...| Bengaluru, India
 
   | Worked as C++ Software Developer for Automotive Infotainment Systems on Embedded Linux platforms. My assignments included the following-
 
@@ -52,24 +31,29 @@ July,2015 - June,2017
 Education
 ----------
 
-July,2011 - May,2015
-  | **B. Tech. Electronics and Communication Engineering**
-  | *National Institute of Technology, Karnataka* |---| Surathkal, India
+| **B. Tech. Electronics and Communication Engineering**
 
-Aug,2017 - Dec,2019
-  | **M.S. Computer Engineering**
-  | *Arizona State University* |---| Tempe, Arizona
+  | *National Institute of Technology, Karnataka* |...| Surathkal, India
+  | July,2011 - May,2015
+ 
+| **M.S. Computer Engineering**
+ 
+  | *Arizona State University* |...| Tempe, Arizona
+  | Aug,2017 - Dec,2019
 
 Skills
 ----------
 
 **Languages and Libraries**
+
   | C++11, C, python, VHDL, Verilog, Shell Scripting(Linux), elisp
 
 **Software Frameworks**
+
   | ROS, OpenCV, Yocto, OpenEmbedded, Qt5, Android, Pytorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Matlab
 
 **Other**
+
   | JIRA, Git, Perforce, Eagle PCB design
 
 Projects
@@ -82,13 +66,13 @@ Projects
   * Acquire sensorimotor competence that allows them to interact with objects and physical environments
   * Learn in a fully autonomous way, i.e. with no human intervention, on the basis of curiosity, intrinsic motivation and task-free Reinforcement Learning
 
-**A Better Reward function for Autonomous 3D Reconstruction** 
+**A Better Reward function for Autonomous 3D Reconstruction**
 
   | Defined a reward function to find the Next Best View for 3D reconstruction of an object on the lines of exploration and exploitation trade-off, favouring exploration of environment initially and exploitation of the environment in later stages
 
 **Hybrid Recommendation Engine For Users based on Yelp dataset**
 
-  Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews using Latent Dirichlet Allocation on Yelp dataset.
+  | Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews using Latent Dirichlet Allocation on Yelp dataset.
 
 **Linux Kernel Device Drivers and Patches**
 
