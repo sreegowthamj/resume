@@ -1,4 +1,42 @@
-\usepackage{fullpage,longtable,booktabs,titling}
+\usepackage{ fullpage,longtable,booktabs,titling}
+
+%\usepackage{fontspec}
+%\newfontfamily\headingfont[]{DejaVu Serif}
+%\setmainfont[Ligatures=TeX]{DejaVu Serif}
+%Century Schoolbook L
+%\usepackage{fontspec}
+% \setmainfont{Noto Serif}
+%Latin Modern Roman, Gentium Basic, Nimbus Roman No9 L
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\Large\scshape\sffamily}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\scshape\sffamily}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\small\scshape\sffamily}{\thesubsubsection}{3em}{}
+\titleformat{\paragraph}[runin]
+{\normalfont\normalsize\sffamily}{\theparagraph}{1em}{}
+\titleformat{\subparagraph}[runin]
+{\normalfont\normalsize\sffamily}{\thesubparagraph}{1em}{}
+
+\let\origquote=\quote
+\def\quote{\origquote\rmfamily}
+
+
+
+\makeatletter
+\def\@maketitle{%
+  \begin{center}%
+    {\LARGE \scshape  \rmfamily  \@title \par}%
+    \vskip 1.5em%
+    %{\large \@date}%
+  \end{center}%
+  \par
+}
+\makeatother
+
+
 \pagenumbering{gobble}
 \setlength\heavyrulewidth{0pt}
 \setlength{\LTpre}{0pt}
@@ -6,7 +44,7 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\droptitle}{-6em}
-\pretitle{\begin{center}\huge}
+\pretitle{\begin{center}}
 \posttitle{\par\end{center}}
 \preauthor{}
 \postauthor{}
