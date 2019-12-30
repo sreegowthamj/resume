@@ -69,7 +69,7 @@ workflows:
       - release_resume:
           requires:
             - build_resume
-	    - build_resume_pandoc
+            - build_resume_pandoc
           filters:
             tags:
               only: /v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)/
