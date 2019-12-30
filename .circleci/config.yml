@@ -32,7 +32,8 @@ jobs:
           command: | 
             apk update && apk add texlive-full
             apk add make openssh git openssh-client
-            make pandoc_resume_simple            
+            make pandoc_resume_simple
+            make pandoc_resume
       - persist_to_workspace:
           root: ~/resume
           paths:
