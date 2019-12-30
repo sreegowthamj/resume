@@ -5,12 +5,11 @@ Sree Gowtham Josyula
 | sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
 | linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
 
-----------
 Employment
-----------
+==========
 
-| **ROS Software Developer** |...| **Luminosity Lab, Arizona State University**
-
+ROS Software Developer |...| Luminosity Lab, Arizona State University
+---------------------------------------------------------------------
   | Feb,2019 - Persent |...| Tempe, AZ
 
   | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
@@ -18,8 +17,8 @@ Employment
   * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
   * Worked on development, configuration and integration of vehicle localization, mapping and actuation modules
   
-| **Associate Software Engineer** |...| **Harman International Inc.**
-
+Associate Software Engineer |...| Harman International Inc.
+---------------------------------------------------------------
   | July,2015 - June,2017 |...| Bengaluru, India
 
   | Worked as C++ Software Developer for Automotive Infotainment Systems on Embedded Linux platforms. My assignments included the following-
@@ -29,52 +28,63 @@ Employment
   * Qt5 based Graphical Interface for Infotainment systems
 
 Education
-----------
+=========
 
-| **B. Tech. Electronics and Communication Engineering**
+B. Tech. |---| Electronics and Communication Engineering 
+----------------------------------------------------------   
 
-  | *National Institute of Technology, Karnataka* |...| Surathkal, India
-  | July,2011 - May,2015
+  | National Institute of Technology, Karnataka |...| Surathkal, India |...| July,2011 - May,2015
+
+
+
  
-| **M.S. Computer Engineering**
- 
-  | *Arizona State University* |...| Tempe, Arizona
-  | Aug,2017 - Dec,2019
+M.S. |---| Computer Engineering
+-----------------------------------------------------------------
+
+  | Arizona State University |...| Tempe, USA |...| Aug,2017 - Dec,2019
+
 
 Skills
-----------
+======
 
-**Languages and Libraries**
+Languages and Libraries
+-----------------------------------------------------------------
 
   | C++11, C, python, VHDL, Verilog, Shell Scripting(Linux), elisp
 
-**Software Frameworks**
+Software Frameworks
+-----------------------------------------------------------------
 
   | ROS, OpenCV, Yocto, OpenEmbedded, Qt5, Android, Pytorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Matlab
 
-**Other**
+Other
+-----------
 
   | JIRA, Git, Perforce, Eagle PCB design
 
 Projects
---------
+========
 
-**Robot Open-Ended Autonomous Learning[Ongoing]**
+Robot Open-Ended Autonomous Learning
+-----------------------------------------------------------------   
 
   | Aims to build learning machines and robots that are able to acquire skills and knowledge in an incremental fashion. This enables the robotic agent to
 
   * Acquire sensorimotor competence that allows them to interact with objects and physical environments
   * Learn in a fully autonomous way, i.e. with no human intervention, on the basis of curiosity, intrinsic motivation and task-free Reinforcement Learning
 
-**A Better Reward function for Autonomous 3D Reconstruction**
+A Better Reward function for Autonomous 3D Reconstruction
+----------------------------------------------------------
 
   | Defined a reward function to find the Next Best View for 3D reconstruction of an object on the lines of exploration and exploitation trade-off, favouring exploration of environment initially and exploitation of the environment in later stages
 
-**Hybrid Recommendation Engine For Users based on Yelp dataset**
+Hybrid Recommendation Engine For Users based on Yelp dataset
+------------------------------------------------------------
 
   | Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews using Latent Dirichlet Allocation on Yelp dataset.
 
-**Linux Kernel Device Drivers and Patches**
+Linux Kernel Device Drivers and Patches
+-----------------------------------------------------------------
 
   | Implemented the following for the Linux kernel
 
@@ -82,19 +92,22 @@ Projects
   * Linux kernel driver for WS2812 Led Strip using GPIO and SPI sub-systems
   * Linux kernel driver for HC-SR04 ultra-sonic distance sensor in GPIO sub-system with sysfs and dev user interfaces
 
-**Virtual Product Trial App on Hololens**
+Virtual Product Trial App on Hololens
+---------------------------------------------------------------
 
   | A Microsoft Hololens App to virtually tryout a product before making a purchase. We built proof of concept implementation for the case of a watch.
 
 Coursework
-------------
+==========
 
-**Graduate Coursework**
+Graduate Coursework
+-----------------------------------------------------------------
 
   | *Artificial Intelligence Track*: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
   | *Systems Track*: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
 
-**Undergraduate Coursework**
+Undergraduate Coursework
+-----------------------------------------------------------------
 
   | *Analog Design*: Analog Electronics, Linear Control Systems, Linear Integrated Circuits, Power Electronics, Analog IC Design, Active Filter Design,  Radio Frequency Integrated Circuits
   | *Digital Design*: Digital Electronics and Computer Architecture, Microprocessors, Embedded Systems, Digital System Design, VLSI Design, Low Power VLSI Design
