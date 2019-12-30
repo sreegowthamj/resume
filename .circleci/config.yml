@@ -28,7 +28,7 @@ jobs:
       - run: 
           name: Build Resume Pandoc Simple
           command: | 
-	    sudo apt-get update && sudo apt-get install -y texlive-latex-extra --no-install-recommends
+            sudo apt-get update && sudo apt-get install -y texlive-latex-extra --no-install-recommends
             make pandoc_resume_simple            
       - persist_to_workspace:
           root: ~/resume
