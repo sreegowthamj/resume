@@ -1,8 +1,12 @@
 BUILD_DIR ?= dist
-RESUME_NAME ?= Connor_McKelvey__Resume
+RESUME_NAME ?= SreeGowthamJ_Resume
+RESUME_NAME_PANDOC = $(RESUME_NAME)_pandoc
 RESUME_SRC ?= RESUME.rst
 RESUME_HTML = $(BUILD_DIR)/$(RESUME_NAME).html
 RESUME_PDF = $(BUILD_DIR)/$(RESUME_NAME).pdf
+RESUME_HTML_PANDOC = $(BUILD_DIR)/$(RESUME_NAME_PANDOC).html
+RESUME_PDF_PANDOC = $(BUILD_DIR)/$(RESUME_NAME_PANDOC).pdf
+RESUME_DOCX_PANDOC = $(BUILD_DIR)/$(RESUME_NAME_PANDOC).docx
 
 SCSS_MAIN = scss/main.scss
 CSS_MAIN = $(BUILD_DIR)/main.css
@@ -38,6 +42,20 @@ $(BUILD_DIR):
 
 clean:
 	@git clean -fdX
+
+$(RESUME_PDF_PANDOC):
+	@pandoc -H head.tex $(RESUME_SRC) -o $(RESUME_PDF_PANDOC)
+	@echo Created $(RESUME_PDF_PANDOC)
+
+$(RESUME_HTML_PANDOC): 
+	@pandoc $(RESUME_SRC) -o $(RESUME_HTML_PANDOC)
+	@echo Created $(RESUME_HTML_PANDOC)
+
+$(RESUME_DOCX_PANDOC):
+	@pandoc $(RESUME_SRC) -o $(RESUME_DOCX_PANDOC)
+	@echo Created $(RESUME_DOCX_PANDOC)
+
+pandoc_resume: $(RESUME_DOCX_PANDOC) $(RESUME_PDF_PANDOC) $(RESUME_HTML_PANDOC)
 
 requirements: requirements.log
 requirements.log: requirements.txt
