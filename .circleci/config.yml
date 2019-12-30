@@ -19,6 +19,21 @@ jobs:
           root: ~/resume
           paths:
             - dist/*
+  build_resume_pandoc:
+    docker:
+      - image: pandoc/latex:latest
+    working_directory: ~/resume
+    steps:
+      - checkout
+      - run: 
+          name: Build Resume Pandoc Simple
+          command: | 
+	    sudo apt-get update && sudo apt-get install -y texlive-latex-extra --no-install-recommends
+            make pandoc_resume_simple            
+      - persist_to_workspace:
+          root: ~/resume
+          paths:
+            - dist/*
 
   release_resume:
     docker:
@@ -47,9 +62,14 @@ workflows:
           filters:
             tags:
               only: /.*/
+      - build_resume_pandoc:
+          filters:
+            tags:
+              only: /.*/
       - release_resume:
           requires:
             - build_resume
+	    - build_resume_pandoc
           filters:
             tags:
               only: /v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)/

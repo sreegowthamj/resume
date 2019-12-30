@@ -43,20 +43,23 @@ $(BUILD_DIR):
 clean:
 	@git clean -fdX
 
-$(RESUME_PDF_PANDOC):
+$(RESUME_PDF_PANDOC): $(BUILD_DIR)
 	@pandoc -H head.tex $(RESUME_SRC) -o $(RESUME_PDF_PANDOC)
 	@echo Created $(RESUME_PDF_PANDOC)
 
-$(RESUME_HTML_PANDOC): 
+$(RESUME_HTML_PANDOC): $(BUILD_DIR)
 	@pandoc $(RESUME_SRC) -o $(RESUME_HTML_PANDOC)
 	@echo Created $(RESUME_HTML_PANDOC)
 
-$(RESUME_DOCX_PANDOC):
+$(RESUME_DOCX_PANDOC): $(BUILD_DIR)
 	@pandoc $(RESUME_SRC) -o $(RESUME_DOCX_PANDOC)
 	@echo Created $(RESUME_DOCX_PANDOC)
 
-pandoc_resume: $(RESUME_DOCX_PANDOC) $(RESUME_PDF_PANDOC) $(RESUME_HTML_PANDOC)
+pandoc_resume: $(RESUME_DOCX_PANDOC) $(RESUME_PDF_PANDOC) $(RESUME_HTML_PANDOC) $(BUILD_DIR)
 
+pandoc_resume_simple: $(BUILD_DIR)
+	@pandoc $(RESUME_SRC) -o dist/SreeGowthamJ_resume_simple.pdf
+	@echo Pandoc ResumeSimple built
 requirements: requirements.log
 requirements.log: requirements.txt
 	@pip install -r requirements.txt | tee requirements.log
