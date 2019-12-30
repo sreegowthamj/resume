@@ -29,7 +29,7 @@ jobs:
           name: Build Resume Pandoc Simple
           command: | 
             apk update && apk add texlive-full
-            apk add make openssh git
+            apk add make openssh git openssh-client
             make pandoc_resume_simple            
       - persist_to_workspace:
           root: ~/resume
