@@ -28,7 +28,7 @@ jobs:
       - run: 
           name: Build Resume Pandoc Simple
           command: | 
-            apk update && apk install -y texlive-full
+            apk update && apk install texlive-full
             apk install make
             make pandoc_resume_simple            
       - persist_to_workspace:
