@@ -24,7 +24,8 @@ jobs:
       - image: pandoc/latex:latest
     working_directory: ~/resume
     steps:
-      - checkout
+      - attach_workspace:
+          at: ~/resume
       - run: 
           name: Build Resume Pandoc Simple
           command: | 
@@ -64,6 +65,8 @@ workflows:
             tags:
               only: /.*/
       - build_resume_pandoc:
+          requires:
+            - build_resume
           filters:
             tags:
               only: /.*/
