@@ -19,6 +19,7 @@ jobs:
           root: ~/resume
           paths:
             - dist/*
+	    - ./*
   build_resume_pandoc:
     docker:
       - image: pandoc/latex:latest
