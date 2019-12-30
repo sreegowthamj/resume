@@ -6,6 +6,8 @@
   font-style: italic;
 
   @media (min-width: 600px) {
+   body { margin: 1.6cm; }
+
     transform: translateY(100%);
   }
 }
