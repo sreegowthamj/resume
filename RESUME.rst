@@ -65,6 +65,12 @@ Other
 Projects
 ========
 
+3D Shape analysis and 3D Shape Processing
+--------------------------------------------
+  * Implemented Generalised Multi Dimensional Scaling(GMDS) for 3D expression invariant face matching in MATLAB by exploring Riemannian geometry
+  * Worked on Spherical Conformal Mapping of genus-0 closed surfaces using eigen projection and global harmonic energy minimization
+
+
 Robot Open-Ended Autonomous Learning
 -----------------------------------------------------------------   
 
