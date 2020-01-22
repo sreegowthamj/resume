@@ -71,6 +71,13 @@ Projects
   * Worked on Spherical Conformal Mapping of genus-0 closed surfaces using eigen projection and global harmonic energy minimization
 
 
+IceVision Challenge: Localization of 300 Traffic signs in Russain winter data
+------------------------------------------------------------------------------
+
+  * Built a network to detect, localize and classify 300 traffic signs in low visibility Russian winter data with stereo images and LIDAR data in pytorch
+  * Used Resnet-101 as 'backbone', Feature Pyramid Network as 'neck' and a custom interpolation logic to match the high frame rate required in the contest
+
+
 Robot Open-Ended Autonomous Learning
 -----------------------------------------------------------------   
 
