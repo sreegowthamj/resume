@@ -2,8 +2,8 @@
 Sree Gowtham Josyula
 ======================
 
-| sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
-| linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
+|                                     sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
+|                                          linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
 
 Employment
 ==========
