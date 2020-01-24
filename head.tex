@@ -1,5 +1,5 @@
-\usepackage{ fullpage,longtable,booktabs,titling}
-
+\usepackage{fullpage,longtable,booktabs,titling}
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
 %\usepackage{fontspec}
 %\newfontfamily\headingfont[]{DejaVu Serif}
 %\setmainfont[Ligatures=TeX]{DejaVu Serif}
@@ -7,12 +7,13 @@
 %\usepackage{fontspec}
 % \setmainfont{Noto Serif}
 %Latin Modern Roman, Gentium Basic, Nimbus Roman No9 L
-
+\usepackage{multicol}
 \usepackage{titlesec}
+
 \titleformat{\section}
-  {\Large\scshape\sffamily}{\thesection}{1em}{}
+  {\Large\scshape\sffamily\titlerule}{\thesection}{10em}{}[\titlerule]
 \titleformat{\subsection}
-  {\normalfont\scshape\sffamily}{\thesubsection}{1em}{}
+  {\normalfont\scshape\sffamily}{\thesubsection}{1em}{}[]
 \titleformat{\subsubsection}
 {\small\scshape\sffamily}{\thesubsubsection}{3em}{}
 \titleformat{\paragraph}[runin]
@@ -29,7 +30,9 @@
 \def\@maketitle{%
   \begin{center}%
     {\LARGE \scshape  \rmfamily  \@title \par}%
-    \vskip 1.5em%
+    \vskip 0.25em%
+    \noindent\rule{\textwidth}{2pt}
+    \vskip 1.25em
     %{\large \@date}%
   \end{center}%
   \par
@@ -44,9 +47,10 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\droptitle}{-6em}
-\pretitle{\begin{center}}
-\posttitle{\par\end{center}}
+%\pretitle{\begin{center} \rule{3in}{0.4pt}\par}
+%\posttitle{\par\par\rule{3in}{0.4pt}\end{center}}
 \preauthor{}
 \postauthor{}
 \predate{}
 \postdate{}
+
