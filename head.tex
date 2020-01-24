@@ -13,7 +13,7 @@
 \titleformat{\section}
   {\Large\scshape\sffamily\titlerule}{\thesection}{10em}{}[\titlerule]
 \titleformat{\subsection}
-  {\normalfont\scshape\sffamily}{\thesubsection}{1em}{}[]
+  {\normalfont\scshape\sffamily}{\thesubsection}{5em}{}[]
 \titleformat{\subsubsection}
 {\small\scshape\sffamily}{\thesubsubsection}{3em}{}
 \titleformat{\paragraph}[runin]
@@ -21,9 +21,13 @@
 \titleformat{\subparagraph}[runin]
 {\normalfont\normalsize\sffamily}{\thesubparagraph}{1em}{}
 
+\titlespacing\section{1pt}{17pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+\titlespacing\subsection{1pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+
+
 \let\origquote=\quote
 \def\quote{\origquote\rmfamily}
-
 
 
 \makeatletter
@@ -54,3 +58,9 @@
 \predate{}
 \postdate{}
 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=cyan,
+    filecolor=blue,      
+    urlcolor=red,
+}
