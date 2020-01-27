@@ -92,8 +92,6 @@ Hybrid Recommendation Engine For Users based on Yelp dataset
 Linux Kernel Device Drivers and Patches
 -----------------------------------------------------------------
 
-  | Implemented the following for the Linux kernel
-
   * Dynamic Linux kernel stack dumping from userspace through a patch in the kernel
   * Linux kernel driver for WS2812 Led Strip using GPIO and SPI sub-systems
   * Linux kernel driver for HC-SR04 ultra-sonic distance sensor in GPIO sub-system with sysfs and dev user interfaces
