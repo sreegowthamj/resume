@@ -77,24 +77,17 @@ IceVision Challenge: Localization of 300 Traffic signs in Russain winter data
   * Built a network to detect, localize and classify 300 traffic signs in low visibility Russian winter data with stereo images and LIDAR data in pytorch
   * Used Resnet-101 as 'backbone', Feature Pyramid Network as 'neck' and a custom interpolation logic to match the high frame rate required in the contest
 
-
-Robot Open-Ended Autonomous Learning
------------------------------------------------------------------   
-
-  | Aims to build learning machines and robots that are able to acquire skills and knowledge in an incremental fashion. This enables the robotic agent to
-
-  * Acquire sensorimotor competence that allows them to interact with objects and physical environments
-  * Learn in a fully autonomous way, i.e. with no human intervention, on the basis of curiosity, intrinsic motivation and task-free Reinforcement Learning
-
-A Better Reward function for Autonomous 3D Reconstruction
+Better Reward function for Autonomous 3D Reconstruction
 ----------------------------------------------------------
 
-  | Defined a reward function to find the Next Best View for 3D reconstruction of an object on the lines of exploration and exploitation trade-off, favouring exploration of environment initially and exploitation of the environment in later stages
+  * Defined a reward function to find the Next Best View for 3D reconstruction of an objects
+  * Exploited exploration and exploitation trade-off for path-planning, favouring exploration of environment initially and exploitation of the environment in later stages
 
 Hybrid Recommendation Engine For Users based on Yelp dataset
 ------------------------------------------------------------
 
-  | Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews using Latent Dirichlet Allocation on Yelp dataset.
+  * Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews
+  * Implemented a recommender system using Latent Dirichlet Allocation on Yelp dataset.
 
 Linux Kernel Device Drivers and Patches
 -----------------------------------------------------------------
@@ -108,7 +101,8 @@ Linux Kernel Device Drivers and Patches
 Virtual Product Trial App on Hololens
 ---------------------------------------------------------------
 
-  | A Microsoft Hololens App to virtually tryout a product before making a purchase. We built proof of concept implementation for the case of a watch.
+  * Built a Microsoft Hololens App to virtually tryout a product before making a purchase
+  * Implemented proof of concept for the case of a watch
 
 Coursework
 ==========
