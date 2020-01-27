@@ -1,29 +1,29 @@
 \usepackage{fullpage,longtable,booktabs,titling}
 \usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
-%\usepackage{fontspec}
-%\newfontfamily\headingfont[]{DejaVu Serif}
-%\setmainfont[Ligatures=TeX]{DejaVu Serif}
+% \usepackage{fontspec}
+% \newfontfamily\headingfont[]{DejaVu Serif}
+% \setmainfont[Ligatures=TeX]{DejaVu Serif}
 %Century Schoolbook L
-%\usepackage{fontspec}
+% \usepackage{fontspec}
 % \setmainfont{Noto Serif}
 %Latin Modern Roman, Gentium Basic, Nimbus Roman No9 L
 \usepackage{multicol}
 \usepackage{titlesec}
-
+\usepackage{libertine}
 \titleformat{\section}
-  {\Large\scshape\sffamily\titlerule}{\thesection}{10em}{}[\titlerule]
+  {\Large\scshape\sffamily}{\thesection}{10em}{}[\titlerule]
 \titleformat{\subsection}
-  {\normalfont\scshape\sffamily}{\thesubsection}{5em}{}[]
+  {\normalsize\sffamily}{\thesubsection}{5em}{}[]
 \titleformat{\subsubsection}
-{\small\scshape\sffamily}{\thesubsubsection}{3em}{}
+{\normalsize\sffamily}{\thesubsubsection}{3em}{}
 \titleformat{\paragraph}[runin]
-{\normalfont\normalsize\sffamily}{\theparagraph}{1em}{}
+{\normalsize\sffamily}{\theparagraph}{1em}{}
 \titleformat{\subparagraph}[runin]
-{\normalfont\normalsize\sffamily}{\thesubparagraph}{1em}{}
+{\normalsize\sffamily}{\thesubparagraph}{1em}{}
 
-\titlespacing\section{1pt}{17pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
-\titlespacing\subsection{1pt}{12pt plus 1pt minus 1pt}{3pt plus 1pt minus 1pt}
-\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 2pt minus 2pt}
+\titlespacing\section{1pt}{12pt plus 4pt minus 2pt}{8pt plus 2pt minus 2pt}
+\titlespacing\subsection{1pt}{8pt plus 1pt minus 1pt}{3pt plus 1pt minus 1pt}
+\titlespacing\subsubsection{0pt}{6pt plus 4pt minus 2pt}{3pt plus 2pt minus 2pt}
 
 
 \let\origquote=\quote
