@@ -3,7 +3,7 @@ Sree Gowtham Josyula
 ======================
 
 |                                     sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
-|                                          linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
+|                                     linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
 
 Employment
 ==========
@@ -15,7 +15,7 @@ ROS Software Developer |...| Luminosity Lab, Arizona State University
   | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
   * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
-  * Worked on development, configuration and integration of vehicle localization, mapping and actuation modules
+  * Worked on development, configuration and integration of Vehicle Localization, Mapping and Sensor Fusion modules
   
 Associate Software Engineer |...| Harman International Inc.
 ---------------------------------------------------------------
