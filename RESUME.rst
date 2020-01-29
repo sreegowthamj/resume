@@ -3,29 +3,29 @@ Sree Gowtham Josyula
 ======================
 
 |                                     sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
-|                                     linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
+|                                    linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
 
 Employment
 ==========
 
 ROS Software Developer |...| Luminosity Lab, Arizona State University
 ---------------------------------------------------------------------
-  | Feb,2019 - Dec,2019 |...| Tempe, AZ
+| Feb,2019 - Dec,2019 |...| Tempe, AZ
 
-  | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
+| Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
-  * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
-  * Worked on development, configuration and integration of Vehicle Localization, Mapping and Sensor Fusion modules
+* Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
+* Worked on development, configuration and integration of Vehicle Localization, Mapping and Sensor Fusion modules
   
 Associate Software Engineer |...| Harman International Inc.
 ---------------------------------------------------------------
-  | July,2015 - June,2017 |...| Bengaluru, India
+| July,2015 - June,2017 |...| Bengaluru, India
 
-  | Worked as C++ Software Developer for Automotive Infotainment Systems on Embedded Linux platforms. My assignments included the following-
+| Worked as C++ Software Developer for Automotive Infotainment Systems on Embedded Linux platforms. My assignments included the following-
 
-  * Building a customized Embedded Linux Distribution for Automobile Infotainment systems using Yocto framework
-  * In Vehicle Software Update module for Infotainment Systems
-  * Qt5 based Graphical Interface for Infotainment systems
+* Building a customized Embedded Linux Distribution for Automobile Infotainment systems using Yocto framework
+* In Vehicle Software Update module for Infotainment Systems
+* Qt5 based Graphical Interface for Infotainment systems
 
 Education
 =========
@@ -33,7 +33,7 @@ Education
 B. Tech. |---| Electronics and Communication Engineering 
 ----------------------------------------------------------   
 
-  | National Institute of Technology, Karnataka |...| Surathkal, India |...| July,2011 - May,2015
+| National Institute of Technology, Karnataka |...| Surathkal, India |...| July,2011 - May,2015
 
 
 
@@ -41,7 +41,7 @@ B. Tech. |---| Electronics and Communication Engineering
 M.S. |---| Computer Engineering
 -----------------------------------------------------------------
 
-  | Arizona State University |...| Tempe, USA |...| Aug,2017 - Dec,2019
+| Arizona State University |...| Tempe, USA |...| Aug,2017 - Dec,2019
 
 
 Skills
@@ -50,57 +50,57 @@ Skills
 Languages and Libraries
 -----------------------------------------------------------------
 
-  | C++11, C, python, VHDL, Verilog, Shell Scripting(Linux), elisp
+| C++11, C, python, VHDL, Verilog, Shell Scripting(Linux), elisp
 
 Software Frameworks
 -----------------------------------------------------------------
 
-  | ROS, OpenCV, Yocto, OpenEmbedded, Qt5, Android, Pytorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Matlab
+| ROS, OpenCV, Yocto, OpenEmbedded, Qt5, Android, Pytorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Matlab
 
 Other
 -----------
 
-  | JIRA, Git, Perforce, Eagle PCB design
+| JIRA, Git, Perforce, Eagle PCB design
 
 Projects
 ========
 
 3D Shape analysis and 3D Shape Processing
 --------------------------------------------
-  * Implemented Generalised Multi Dimensional Scaling(GMDS) for 3D expression invariant face matching in MATLAB by exploring Riemannian geometry
-  * Worked on Spherical Conformal Mapping of genus-0 closed surfaces using eigen projection and global harmonic energy minimization
+* Implemented Generalised Multi Dimensional Scaling(GMDS) for 3D expression invariant face matching in MATLAB by exploring Riemannian geometry
+* Worked on Spherical Conformal Mapping of genus-0 closed surfaces using eigen projection and global harmonic energy minimization
 
 
 IceVision Challenge: Localization of 300 Traffic signs in Russain winter data
 ------------------------------------------------------------------------------
 
-  * Built a network to detect, localize and classify 300 traffic signs in low visibility Russian winter data with stereo images and LIDAR data in pytorch
-  * Used Resnet-101 as 'backbone', Feature Pyramid Network as 'neck' and a custom interpolation logic to match the high frame rate required in the contest
+* Built a network to detect, localize and classify 300 traffic signs in low visibility Russian winter data with stereo images and LIDAR data in pytorch
+* Used Resnet-101 as 'backbone', Feature Pyramid Network as 'neck' and a custom interpolation logic to match the high frame rate required in the contest
 
 Better Reward function for Autonomous 3D Reconstruction
 ----------------------------------------------------------
 
-  * Defined a reward function to find the Next Best View for 3D reconstruction of an objects
-  * Exploited exploration and exploitation trade-off for path-planning, favouring exploration of environment initially and exploitation of the environment in later stages
+* Defined a reward function to find the Next Best View for 3D reconstruction of an objects
+* Exploited exploration and exploitation trade-off for path-planning, favouring exploration of environment initially and exploitation of the environment in later stages
 
 Hybrid Restaurant Recommendation Engine using on Yelp dataset
 ---------------------------------------------------------------------------
 
-  * Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews
-  * Implemented a recommender system using Latent Dirichlet Allocation on Yelp dataset.
+* Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews
+* Implemented a recommender system using Latent Dirichlet Allocation on Yelp dataset.
 
 Linux Kernel Device Drivers and Patches
 -----------------------------------------------------------------
 
-  * Dynamic Linux kernel stack dumping from userspace through a patch in the kernel
-  * Linux kernel driver for WS2812 Led Strip using GPIO and SPI sub-systems
-  * Linux kernel driver for HC-SR04 ultra-sonic distance sensor in GPIO sub-system with sysfs and dev user interfaces
+* Dynamic Linux kernel stack dumping from userspace through a patch in the kernel
+* Linux kernel driver for WS2812 Led Strip using GPIO and SPI sub-systems
+* Linux kernel driver for HC-SR04 ultra-sonic distance sensor in GPIO sub-system with sysfs and dev user interfaces
 
 Virtual Product Trial App on Hololens
 ---------------------------------------------------------------
 
-  * Built a Microsoft Hololens App to virtually tryout a product before making a purchase
-  * Implemented proof of concept for the case of a watch
+* Built a Microsoft Hololens App to virtually tryout a product before making a purchase
+* Implemented proof of concept for the case of a watch
 
 Coursework
 ==========
@@ -108,16 +108,16 @@ Coursework
 Graduate Coursework
 -----------------------------------------------------------------
 
-  | *Artificial Intelligence Track*: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
-  | *Systems Track*: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
+* **Artificial Intelligence Track**: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
+* **Systems Track**: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
 
 Undergraduate Coursework
 -----------------------------------------------------------------
 
-  | *Analog Design*: Analog Electronics, Linear Control Systems, Linear Integrated Circuits, Power Electronics, Analog IC Design, Active Filter Design,  Radio Frequency Integrated Circuits
-  | *Digital Design*: Digital Electronics and Computer Architecture, Microprocessors, Embedded Systems, Digital System Design, VLSI Design, Low Power VLSI Design
-  | *Signal Processing*: Linear Systems and Signals, Digital Signal Processing, Advanced Digital Signal Processing, Digital Signal Compression, Speech and Audio Processing, Digital Image and Video Processing and Compression
-  | *Communication Systems*: Analog Communication, Digital Communication, Communication Networks, Cryptography, Random Signal Theory, Electromagnetic Theory, Antennas and Propagation, Microwave Engineering
+* **Analog Design** : Analog Electronics, Linear Control Systems, Linear Integrated Circuits, Power Electronics, Analog IC Design, Active Filter Design,  Radio Frequency Integrated Circuits
+* **Digital Design**: Digital Electronics and Computer Architecture, Microprocessors, Embedded Systems, Digital System Design, VLSI Design, Low Power VLSI Design
+* **Signal Processing**: Linear Systems and Signals, Digital Signal Processing, Advanced Digital Signal Processing, Digital Signal Compression, Speech and Audio Processing, Digital Image and Video Processing and Compression
+* **Communication Systems**: Analog Communication, Digital Communication, Communication Networks, Cryptography, Random Signal Theory, Electromagnetic Theory, Antennas and Propagation, Microwave Engineering
 
 
 .. meta::
