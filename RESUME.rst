@@ -10,7 +10,7 @@ Employment
 
 ROS Software Developer |...| Luminosity Lab, Arizona State University
 ---------------------------------------------------------------------
-  | Feb,2019 - Persent |...| Tempe, AZ
+  | Feb,2019 - Dec,2019 |...| Tempe, AZ
 
   | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
@@ -83,8 +83,8 @@ Better Reward function for Autonomous 3D Reconstruction
   * Defined a reward function to find the Next Best View for 3D reconstruction of an objects
   * Exploited exploration and exploitation trade-off for path-planning, favouring exploration of environment initially and exploitation of the environment in later stages
 
-Hybrid Recommendation Engine For Users based on Yelp dataset
-------------------------------------------------------------
+Hybrid Restaurant Recommendation Engine using on Yelp dataset
+---------------------------------------------------------------------------
 
   * Built a Restaurant Recommendation System for suggesting restaurants based on the users' previous history and the restaurant's reviews
   * Implemented a recommender system using Latent Dirichlet Allocation on Yelp dataset.
