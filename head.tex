@@ -11,9 +11,9 @@
 \usepackage{titlesec}
 \usepackage{libertine}
 \titleformat{\section}
-  {\Large\scshape\sffamily}{\thesection}{10em}{}[\titlerule]
+  {\Large\scshape\sffamily}{\thesection}{20em}{}[\titlerule]
 \titleformat{\subsection}
-  {\large\sffamily}{\thesubsection}{5em}{}[]
+  {\large\sffamily}{\thesubsection}{20em}{}[]
 \titleformat{\subsubsection}
 {\normalsize\sffamily}{\thesubsubsection}{3em}{}
 \titleformat{\paragraph}[runin]
@@ -21,9 +21,11 @@
 \titleformat{\subparagraph}[runin]
 {\normalsize\sffamily}{\thesubparagraph}{1em}{}
 
-\titlespacing\section{1pt}{8pt plus 4pt minus 2pt}{8pt plus 2pt minus 2pt}
-\titlespacing\subsection{1pt}{8pt plus 1pt minus 1pt}{3pt plus 1pt minus 1pt}
-\titlespacing\subsubsection{0pt}{6pt plus 4pt minus 2pt}{3pt plus 2pt minus 2pt}
+% \titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+\titlespacing\section{0pt}{8pt plus 4pt minus 2pt}{8pt plus 2pt minus 2pt}
+\titlespacing\subsection{10pt}{8pt plus 1pt minus 1pt}{3pt plus 1pt minus 1pt}
+\titlespacing\subsubsection{0pt}{6pt plus 1pt minus 1pt}{3pt plus 1pt minus 1pt}
+\titlespacing\paragraph{0pt}{2pt plus 1pt minus 1pt}{2pt plus 1pt minus 1pt}
 
 
 \let\origquote=\quote
@@ -63,4 +65,8 @@
     linkcolor=cyan,
     filecolor=blue,      
     urlcolor=red,
+    pdftitle={Sree Gowtham Josyula's Resume},
+    pdfauthor={Sree Gowtham Josyula},
+    pdfsubject={Resume, Sensor Fusion, Robotics, Self-Driving Cars, ROS, SLAM, Deep Learning, Computer Vision, Localization, Mapping, Path-Planning, Perception, LIDAR, Robotics Software, OpenCV, pytorch, tensorflow, keras},
+    pdfkeywords={Resume, Sensor Fusion, Robotics, Self-Driving Cars, ROS, SLAM, Deep Learning, Computer Vision, Localization, Mapping, Path-Planning, Perception, LIDAR, Robotics Software, OpenCV, pytorch, tensorflow, keras}  
 }
