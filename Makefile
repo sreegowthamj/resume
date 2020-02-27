@@ -44,7 +44,7 @@ clean:
 	@git clean -fdX
 
 $(RESUME_PDF_PANDOC): $(BUILD_DIR) head.tex $(RESUME_SRC)
-	@pandoc --pdf-engine=xelatex -V fontsize:11pt -H head.tex $(RESUME_SRC) -o $(RESUME_PDF_PANDOC) #--variable classoption=twocolumn
+	@pandoc --pdf-engine=xelatex -V fontsize:12pt -H head.tex $(RESUME_SRC) -o $(RESUME_PDF_PANDOC) #--variable classoption=twocolumn
 	@echo Created $(RESUME_PDF_PANDOC)
 
 $(RESUME_HTML_PANDOC): $(BUILD_DIR) $(RESUME_SRC)

@@ -8,16 +8,16 @@ Sree Gowtham Josyula
 Employment
 ==========
 
-ROS Software Developer |...| Luminosity Lab, Arizona State University
+ROS Software Developer |---| Luminosity Lab, Arizona State University
 ---------------------------------------------------------------------
-| Feb,2019 - Dec,2019 |...| Tempe, AZ
+| Feb,2019 - Persent |...| Tempe, AZ
 
 | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
 * Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
 * Worked on development, configuration and integration of Vehicle Localization, Mapping and Sensor Fusion modules
   
-Associate Software Engineer |...| Harman International Inc.
+Associate Software Engineer |---| Harman International Inc.
 ---------------------------------------------------------------
 | July,2015 - June,2017 |...| Bengaluru, India
 
@@ -108,8 +108,8 @@ Coursework
 Graduate Coursework
 -----------------------------------------------------------------
 
-* **Artificial Intelligence Track**: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
-* **Systems Track**: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
+* **Artificial Intelligence**: Statistical Machine Learning, Deep Learning for Media Processing, Perception in Robotics, Image and Video Processing Planning and Learning in AI, Advanced Computer Graphics 
+* **Systems**: Embedded Operating System Internals, Fundamentals of Algorithms, Random Signal Theory
 
 Undergraduate Coursework
 -----------------------------------------------------------------
