@@ -8,24 +8,36 @@ Sree Gowtham Josyula
 Employment
 ==========
 
+Software Engineer I(On Contract) |---| Qualcomm (via ATR International) 
+-------------------------------------------------------------------------
+| May, 2020 - Present |...| Tempe, AZ
+
+| Part of 5G cellular Network Basestation Team 
+
+* Working on performance profiling and optimization of the gNB module in 5G network stack
+* Using Linux kernel tracing tools and binary instrumentation frameworks to achieve desired results
+
+
 ROS Software Developer |---| Luminosity Lab, Arizona State University
 ---------------------------------------------------------------------
-| Feb,2019 - Persent |...| Tempe, AZ
+| Feb,2019 - May, 2020 |...| Tempe, AZ
 
 | Working on a Self-Driving Race Car project using ROS framework and Autoware Self-Driving Stack
 
-* Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla and Autoware
-* Worked on development, configuration and integration of Vehicle Localization, Mapping and Sensor Fusion modules
-  
+* Simulated end-to-end functionality of Perception, Mapping and Navigation modules of the vehicle using Carla, Autoware and Gazebo using C++11 and python
+* Worked on development, configuration and integration of Vehicle Localization, Mapping and Sensor Fusion modules in C++11 and python
+* Designed the software architecture for the Vehicle Actuation stack and also implemented it in C++11
+* Used OpenCV, CUDA based libraries for computational processing and CARLA, built on Unreal Engine for Simulation.
+
 Associate Software Engineer |---| Harman International Inc.
 ---------------------------------------------------------------
 | July,2015 - June,2017 |...| Bengaluru, India
 
-| Worked as C++ Software Developer for Automotive Infotainment Systems on Embedded Linux platforms. My assignments included the following-
+| Worked as Software Developer for Automotive Infotainment Systems on Embedded Linux platforms. My assignments included the following-
 
 * Building a customized Embedded Linux Distribution for Automobile Infotainment systems using Yocto framework
-* In Vehicle Software Update module for Infotainment Systems
-* Qt5 based Graphical Interface for Infotainment systems
+* In Vehicle Software Update module for Infotainment Systems using C++11
+* Qt5 based Graphical Interface for Infotainment systems using C++11
 
 Education
 =========
@@ -36,8 +48,6 @@ B. Tech. |---| Electronics and Communication Engineering
 | National Institute of Technology, Karnataka |...| Surathkal, India |...| July,2011 - May,2015
 
 
-
- 
 M.S. |---| Computer Engineering
 -----------------------------------------------------------------
 
@@ -50,12 +60,12 @@ Skills
 Languages and Libraries
 -----------------------------------------------------------------
 
-| C++11, C, python, VHDL, Verilog, Shell Scripting(Linux), elisp
+| C++11, C++14, C++17, C, python, VHDL, Verilog, Shell Scripting(Linux), elisp, CUDA, TCP/IP, UDP/IP
 
 Software Frameworks
 -----------------------------------------------------------------
 
-| ROS, OpenCV, Yocto, OpenEmbedded, Qt5, Android, Pytorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Matlab
+| ROS, ROS2, OpenCV, Gazebo, Yocto, OpenEmbedded, Qt5, Android, Pytorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Matlab, CAN, CANalyzer, CANoe
 
 Other
 -----------
