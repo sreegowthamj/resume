@@ -10,7 +10,7 @@ Employment
 
 Software Engineer I(On Contract) |---| Qualcomm (via ATR International) 
 -------------------------------------------------------------------------
-| May, 2020 - Present |...| Tempe, AZ
+| May, 2020 - Nov, 2020 |...| Tempe, AZ
 
 | Part of 5G cellular Network Basestation Team 
 

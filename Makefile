@@ -47,6 +47,10 @@ $(RESUME_PDF_PANDOC): $(BUILD_DIR) head.tex $(RESUME_SRC)
 	@pandoc --pdf-engine=xelatex -V fontsize:11pt -H head.tex $(RESUME_SRC) -o $(RESUME_PDF_PANDOC) #--variable classoption=twocolumn
 	@echo Created $(RESUME_PDF_PANDOC)
 
+resume_SreeGowthamJ.pdf: $(BUILD_DIR) head.tex $(RESUME_SRC)
+	@pandoc --pdf-engine=xelatex -V fontsize:11pt -H head.tex $(RESUME_SRC) -o resume_SreeGowthamJ.pdf #--variable classoption=twocolumn
+	@echo Created $(RESUME_PDF_PANDOC)
+
 $(RESUME_HTML_PANDOC): $(BUILD_DIR) $(RESUME_SRC)
 	@pandoc $(RESUME_SRC) -o $(RESUME_HTML_PANDOC)
 	@echo Created $(RESUME_HTML_PANDOC)
