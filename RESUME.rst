@@ -2,21 +2,31 @@
 Sree Gowtham Josyula
 ======================
 
-|                                     sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Tempe, AZ, USA
+|                                     sreegowthamj@gmail.com |...| +1-623-216-8029 |...| Shapsburg, Georgia, USA
 |                                    linkedin: sreegowthamjosyula_ |...| gitlab: sreegowthamj_
 
 Employment
 ==========
 
-Software Engineer I(On Contract) |---| Qualcomm (via ATR International) 
--------------------------------------------------------------------------
-| May, 2020 - Nov, 2020 |...| Tempe, AZ
+Software Engineer(On Contract) |---| Panasonic Automotive
+----------------------------------------------------------
+| Nov, 2020 - Present |...| Peachtree City, Georgia
 
-| Part of 5G cellular Network Basestation Team 
+| Member of Vision and Sensing Team for Augmented Reality(AR) Infotainment systems
 
-* Working on performance profiling and optimization of the gNB module in 5G network stack
-* Using Linux kernel tracing tools and binary instrumentation frameworks to achieve desired results
+* Working on Driver Monitoring System for Cars to enable AR Infotainment Display
+* Implementing Headpose Tracking Service for retriving realtime 3D headpose of the driver
+* Used C++17, Tensorflow and OpenCV for Linux and Android platforms
 
+Software Engineer I(On Contract) |---| Qualcomm 
+-----------------------------------------------
+| May, 2020 - Nov, 2020 |...| Boulder, Colorado
+
+| Part of 5G Cellular Network Basestation Team 
+
+* Worked on Modem Drivers for 5G network basestations for Uplink and downlink shared channels
+* Also implemented performance profiling and optimization of the gNB module in 5G network stack
+* Used C++17, perf and DPDK targeted for Linux
 
 ROS Software Developer |---| Luminosity Lab, Arizona State University
 ---------------------------------------------------------------------
@@ -78,7 +88,7 @@ Projects
 3D Shape analysis and 3D Shape Processing
 --------------------------------------------
 * Implemented Generalised Multi Dimensional Scaling(GMDS) for 3D expression invariant face matching in MATLAB by exploring Riemannian geometry
-* Worked on Spherical Conformal Mapping of genus-0 closed surfaces using eigen projection and global harmonic energy minimization
+* Worked on Spherical Conformal Mapping of genus-0 closed surfaces using eigen projection and global harmonic energy minimization for faster and accurate results
 
 
 IceVision Challenge: Localization of 300 Traffic signs in Russain winter data

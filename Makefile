@@ -33,8 +33,8 @@ $(RESUME_PDF): $(RESUME_HTML) bin/chrome
 	@echo built $(RESUME_PDF)
 
 $(CSS_MAIN): requirements $(SCSS_MAIN)
-	@sassc -s compressed $(SCSS_MAIN) $(CSS_MAIN)
-	@echo built $(CSS_MAIN)
+	#@sassc -s compressed $(SCSS_MAIN) $(CSS_MAIN)
+	#@echo built $(CSS_MAIN)
 
 $(BUILD_DIR):
 	@mkdir -p $(BUILD_DIR)
@@ -43,12 +43,11 @@ $(BUILD_DIR):
 clean:
 	@git clean -fdX
 
+pdf_resume : $(RESUME_PDF_PANDOC)
+
+
 $(RESUME_PDF_PANDOC): $(BUILD_DIR) head.tex $(RESUME_SRC)
 	@pandoc --pdf-engine=xelatex -V fontsize:11pt -H head.tex $(RESUME_SRC) -o $(RESUME_PDF_PANDOC) #--variable classoption=twocolumn
-	@echo Created $(RESUME_PDF_PANDOC)
-
-resume_SreeGowthamJ.pdf: $(BUILD_DIR) head.tex $(RESUME_SRC)
-	@pandoc --pdf-engine=xelatex -V fontsize:11pt -H head.tex $(RESUME_SRC) -o resume_SreeGowthamJ.pdf #--variable classoption=twocolumn
 	@echo Created $(RESUME_PDF_PANDOC)
 
 $(RESUME_HTML_PANDOC): $(BUILD_DIR) $(RESUME_SRC)
