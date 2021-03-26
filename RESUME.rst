@@ -18,7 +18,7 @@ Software Engineer |---| Panasonic Automotive
 * Implementing Headpose Tracking Service for retriving realtime 3D headpose of the driver
 * Used C++17, Tensorflow and OpenCV for Linux and Android platforms
 
-Software Engineer I |---| Qualcomm 
+Software Engineer I |---| Qualcomm
 -----------------------------------------------
 | May, 2020 - Nov, 2020 |...| Boulder, Colorado
 
