@@ -8,7 +8,7 @@ Sree Gowtham Josyula
 Employment
 ==========
 
-Software Engineer(On Contract) |---| Panasonic Automotive
+Software Engineer |---| Panasonic Automotive
 ----------------------------------------------------------
 | Nov, 2020 - Present |...| Peachtree City, Georgia
 
@@ -18,7 +18,7 @@ Software Engineer(On Contract) |---| Panasonic Automotive
 * Implementing Headpose Tracking Service for retriving realtime 3D headpose of the driver
 * Used C++17, Tensorflow and OpenCV for Linux and Android platforms
 
-Software Engineer I(On Contract) |---| Qualcomm 
+Software Engineer I |---| Qualcomm 
 -----------------------------------------------
 | May, 2020 - Nov, 2020 |...| Boulder, Colorado
 
